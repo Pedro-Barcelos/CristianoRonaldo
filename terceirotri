@@ -1,0 +1,22 @@
+<?php
+ $servidor = 'localhost';
+ $banco = 'naruto';
+ $usuario = 'root';
+ $senha = 'biscoito123';
+
+ $mysqli = new myqli($servidor, $usuario, $senha, $banco);
+if ($mysqli ->connect_errno) {
+    echo "falha ao conectar: (" . $mysqli->connect_errno .") " . $mysqli->connect_errno
+
+  }
+?>
+
+<?php
+
+include("bdd.php")
+
+echo "https://youtu.be/IQGjfTrYiHo";
+
+echo "aproveite essas obras primas!"
+
+?>
